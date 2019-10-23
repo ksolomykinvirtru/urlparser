@@ -6,7 +6,7 @@
     "url",
     "parse"
   ],
-  "author": { 
+  "author": {
     "name": "Kaerus",
     "email": "contact@kaerus.com",
     "web": "http://kaerus.com"
@@ -15,10 +15,10 @@
     "anders elo <anders@kaerus.com>"
   ],
   "devDependencies": {
-    "mocha":"*",
-    "should":"*",
-    "chai": "*",
-    "mocha-phantomjs":"*"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "mocha-phantomjs": "^4.1.0",
+    "should": "^13.2.3"
   },
   "bugs": {
     "url": "https://github.com/kaerus-component/url/issues"
@@ -28,18 +28,22 @@
     "url": "git://github.com/kaerus-component/url"
   },
   "scripts": {
-    "test":"make test"
+    "test": "make test"
   },
   "main": "index.js",
   "license": "APACHE2_0",
-  "yuidoc":{
-    "url":"https://github.com/kaerus-component/urlparser",
-    "logo":"http://kaerus.com/images/kaerus64.png",
-    "options":{
-      "exclude":"build,node_modules,test",
-      "ignorePaths": [ "build","node_modules","test" ],
-      "outdir":"./build/apidoc",
+  "yuidoc": {
+    "url": "https://github.com/kaerus-component/urlparser",
+    "logo": "http://kaerus.com/images/kaerus64.png",
+    "options": {
+      "exclude": "build,node_modules,test",
+      "ignorePaths": [
+        "build",
+        "node_modules",
+        "test"
+      ],
+      "outdir": "./build/apidoc",
       "paths": "*/js"
-    }  
-  }      
+    }
+  }
 }
